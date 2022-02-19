@@ -26,4 +26,4 @@ stdenv: ''
 
   # invoke the actual linker with the new params
   exec x86_64-unknown-linux-musl-cc @<(printf "%q\n" "''${newParams[@]}")
-'';
+''
