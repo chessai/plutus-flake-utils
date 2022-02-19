@@ -154,6 +154,10 @@
         dynamic = nixpkgsFor false system;
       };
 
+      # all this arg-passing has bad UX
+      # ideally the user would be able to apply
+      # project to args, then just get the other
+      # stuff for free
       project = {
         static = args: projectFor true system args;
         dynamic = args: projectFor false system args;
@@ -163,6 +167,12 @@
         static = args: (project.static args).flake { };
         dynamic = args: (project.dynamic args).flake { };
       };
+
+      devShell = args: ((flake.dynamic args).devShell).overrideAttrs (old: {
+        nativeBuildInputs = old.nativeBuildInputs or [] ++ [
+          ((project.dynamic args).hsPkgs.cardano-cli.getComponent "exe:cardano-cli")
+        ];
+      });
     }) //
     {
       inherit config;
