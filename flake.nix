@@ -88,7 +88,8 @@
             if doStatic
             then basePkgs.pkgsCross.musl64
             else basePkgs;
-          linker-workaround = import ./linker-workaround.nix pkgs.stdenv;
+          linker-workaround = pkgs.writeShellScript "linker-workaround"
+            (import ./linker-workaround.nix pkgs.stdenv);
           gitignore = pkgs.nix-gitignore.gitignoreSourcePure
             (import ./default-gitignore.nix + extraGitignore);
           sha256map = import ./sha256map.nix // extraSha256map;
