@@ -163,7 +163,7 @@
 
         devShell = flake.dynamic.devShell.overrideAttrs (old: {
           nativeBuildInputs = old.nativeBuildInputs or [] ++ [
-            ((project.dynamic args).hsPkgs.cardano-cli.getComponent "exe:cardano-cli")
+            (project.dynamic.hsPkgs.cardano-cli.getComponent "exe:cardano-cli")
           ];
         });
       };
