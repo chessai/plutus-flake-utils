@@ -92,7 +92,7 @@
           gitignore = pkgs.nix-gitignore.gitignoreSourcePure
             (import ./default-gitignore.nix + extraGitignore);
           sha256map = import ./sha256map.nix // extraSha256map;
-          setGHCOptions = ps: builtins.foldr
+          setGHCOptions = ps: nixpkgs.lib.foldr
             (p: acc: {
               "${p}".ghcOptions =
                 nixpkgs.lib.optional doStatic "-pgml=${linker-workaround}"
