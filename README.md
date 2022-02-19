@@ -7,6 +7,15 @@ A flake that can be used in the flake setup of a plutus application.
   description = "plutus-flake example";
 
   inputs = {
+    nixpkgs = {
+      follows = "haskell-nix/nixpkgs-unstable";
+    };
+
+    haskell-nix = {
+      url = "github:input-output-hk/haskell.nix";
+      inputs.nixpkgs.follows = "haskell-nix/nixpkgs-2111";
+    };
+
     flake-utils = {
       url = "github:numtide/flake-utils";
     };
@@ -27,21 +36,16 @@ A flake that can be used in the flake setup of a plutus application.
         [ "x86_64-linux" ];
 
       projectArgs = {
-        packages = [ "myCabalPackage" ];
+        packages = [ "myProjectName" ];
         src = ./.;
         compiler-nix-name = "ghc8107";
       };
-
-      mkFlake = linking: system:
-        (plutus-flake.flake.${system}."${linking}" projectArgs).flake { };
     in
     flake-utils.lib.eachSystem supportedSystems (system: rec {
-      flake = {
-        static = mkFlake "static" system;
-        dynamic = mkFlake "dynamic" system;
-      };
+      pkgs = plutus-flake.pkgs system;
 
-      devShell = flake.dynamic.devShell;
+      inherit (plutus-flake.plutusProject system projectArgs)
+        project flake devShell;
     });
 }
 ```
