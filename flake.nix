@@ -17,10 +17,6 @@
       url = "github:input-output-hk/iohk-nix";
       flake = false;
     };
-
-    flake-utils = {
-      url = "github:numtide/flake-utils";
-    };
   };
 
   outputs =
@@ -148,32 +144,30 @@
           configureArgs = builtins.concatStringsSep " " configureArgs;
         };
     in
-    flake-utils.lib.eachSystem supportedSystems (system: rec {
-      pkgs = {
+    rec {
+      pkgs = system: {
         static = nixpkgsFor true system;
         dynamic = nixpkgsFor false system;
       };
 
-      # all this arg-passing has bad UX
-      # ideally the user would be able to apply
-      # project to args, then just get the other
-      # stuff for free
-      project = {
-        static = args: projectFor true system args;
-        dynamic = args: projectFor false system args;
-      };
+      plutusProject = system: args: rec {
+        project = {
+          static = projectFor true system args;
+          dynamic = projectFor false system args;
+        };
 
-      flake = {
-        static = args: (project.static args).flake { };
-        dynamic = args: (project.dynamic args).flake { };
-      };
+        flake = {
+          static = project.static.flake { };
+          dynamic = project.dynamic.flake { };
+        };
 
-      devShell = args: ((flake.dynamic args).devShell).overrideAttrs (old: {
-        nativeBuildInputs = old.nativeBuildInputs or [] ++ [
-          ((project.dynamic args).hsPkgs.cardano-cli.getComponent "exe:cardano-cli")
-        ];
-      });
-    }) //
+        devShell = (flake.dynamic.devShell { }).overrideAttrs (old: {
+          nativeBuildInputs = old.nativeBuildInputs or [] ++ [
+            ((project.dynamic args).hsPkgs.cardano-cli.getComponent "exe:cardano-cli")
+          ];
+        });
+      };
+    } //
     {
       inherit config;
 
