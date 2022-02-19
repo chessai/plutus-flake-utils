@@ -37,4 +37,6 @@
     "18j0rysfccbmfpbw2d1rsjkpd5h84alpsn6b5rwzdxw9h5vqi9m5";
   "https://github.com/haskell-beam/beam.git"."254d02db7c65e66f4041f7a3a5004e5c8876152c" =
     "1b7rx7s7cvcq3fkihgmq95k8ld6g0aa59bnzfdrvnpn6y159kyll";
+  "https://github.com/Liqwid-Labs/plutus-extra.git"."d1e612bfac56d8e739b8911dacec2e8e87e1713d" =
+    "b8bi7Bbh2aC03AuXJ6RB7ThSz7nHPGWDoEqMjcbeo6E=";
 }
