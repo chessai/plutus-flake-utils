@@ -43,4 +43,5 @@ A flake that can be used in the flake setup of a plutus application.
 
       devShell = flake.dynamic.devShell;
     });
+}
 ```
