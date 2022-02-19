@@ -35,6 +35,8 @@
       supportedSystems =
         [ "x86_64-linux" ];
 
+      config = haskell-nix.config;
+
       overlaysFor = doStatic:
         let
           lzmaStaticOverlay = self: super: {
@@ -53,7 +55,7 @@
       nixpkgsFor = doStatic: system:
         import nixpkgs {
           inherit system;
-          inherit (haskell-nix) config;
+          inherit config;
           overlays = overlaysFor doStatic;
         };
 
@@ -156,8 +158,15 @@
         static = args: projectFor true system args;
         dynamic = args: projectFor false system args;
       };
+
+      flake = {
+        static = args: (project.static args).flake { };
+        dynamic = args: (project.dynamic args).flake { };
+      };
     }) //
     {
+      inherit config;
+
       overlays = {
         static = overlaysFor true;
         dynamic = overlaysFor false;
