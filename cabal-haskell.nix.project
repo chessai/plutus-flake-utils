@@ -1,0 +1,227 @@
+-- This is appended to `cabal.project` before calling haskell.nix
+
+allow-newer:
+    playground-common:recursion-schemes
+  , size-based:template-haskell
+
+source-repository-package
+ type: git
+ location: https://github.com/input-output-hk/plutus.git
+ subdir:
+   plutus-core
+   plutus-ledger-api
+   plutus-tx
+   plutus-tx-plugin
+   prettyprinter-configurable
+   stubs/plutus-ghc-stub
+   word-array
+ tag: 2721c59fd2302b75c4138456c29fd5b509e8340a
+
+source-repository-package
+  type: git
+  location: https://github.com/input-output-hk/plutus-apps.git
+  subdir:
+    doc
+    freer-extras
+    playground-common
+    plutus-chain-index
+    plutus-chain-index-core
+    plutus-contract
+    plutus-ledger
+    plutus-ledger-constraints
+    plutus-pab
+    plutus-playground-server
+    plutus-use-cases
+    quickcheck-dynamic
+    web-ghc
+  tag: v2021-12-20
+
+-- https://github.com/Quid2/flat/pull/22 fixes a potential exception
+-- when decoding invalid (e.g. malicious) text literals.
+source-repository-package
+  type: git
+  location: https://github.com/Quid2/flat.git
+  tag: ee59880f47ab835dbd73bea0847dab7869fc20d8
+
+source-repository-package
+  type: git
+  location: https://github.com/input-output-hk/cardano-crypto.git
+  tag: f73079303f663e028288f9f4a9e08bcca39a923e
+
+source-repository-package
+  type: git
+  location: https://github.com/input-output-hk/cardano-base.git
+  subdir:
+    base-deriving-via
+    binary
+    binary/test
+    cardano-crypto-class
+    cardano-crypto-praos
+    cardano-crypto-tests
+    measures
+    orphans-deriving-via
+    slotting
+    strict-containers
+  tag: 654f5b7c76f7cc57900b4ddc664a82fc3b925fb0
+
+source-repository-package
+  type: git
+  location: https://github.com/input-output-hk/cardano-prelude.git
+  subdir:
+    cardano-prelude
+    cardano-prelude-test
+  tag: bb4ed71ba8e587f672d06edf9d2e376f4b055555
+
+source-repository-package
+  type: git
+  location: https://github.com/input-output-hk/Win32-network.git
+  tag: 3825d3abf75f83f406c1f7161883c438dac7277d
+
+source-repository-package
+  type: git
+  location: https://github.com/input-output-hk/iohk-monitoring-framework.git
+  subdir:
+    contra-tracer
+    iohk-monitoring
+    plugins/backend-aggregation
+    plugins/backend-ekg
+    plugins/backend-monitoring
+    plugins/backend-trace-forwarder
+    plugins/scribe-systemd
+    tracer-transformers
+  -- IMPORTANT: make sure you update this from the *develop* branch, not master!
+  tag: 46f994e216a1f8b36fe4669b47b2a7011b0e153c
+
+source-repository-package
+  type: git
+  location: https://github.com/chessai/cardano-ledger.git
+  subdir:
+    byron/ledger/impl
+    cardano-ledger-core
+    cardano-protocol-tpraos
+    eras/alonzo/impl
+    eras/byron/chain/executable-spec
+    eras/byron/crypto
+    eras/byron/crypto/test
+    eras/byron/ledger/executable-spec
+    eras/byron/ledger/impl/test
+    eras/shelley-ma/impl
+    eras/shelley/chain-and-ledger/executable-spec
+    eras/shelley/impl
+    eras/shelley/test-suite
+    libs/cardano-ledger-pretty
+    libs/non-integral
+    libs/small-steps
+    semantics/small-steps-test
+    shelley/chain-and-ledger/shelley-spec-ledger-test
+  tag: 70b1c0f308e7fb4522bfff29b9b550792acf3b26
+
+source-repository-package
+  type: git
+  location: https://github.com/input-output-hk/goblins
+  tag: cde90a2b27f79187ca8310b6549331e59595e7ba
+
+-- A lot of plutus-apps dependendencies have to be synchronised with
+-- the dependencies of cardano-node. If you update cardano-node, please
+-- make sure that all dependencies of cardano-node are also updated.
+source-repository-package
+  type: git
+  location: https://github.com/input-output-hk/cardano-node.git
+  subdir:
+    cardano-api
+    cardano-cli
+    cardano-node
+  tag: 4f65fb9a27aa7e3a1873ab4211e412af780a3648
+
+source-repository-package
+  type: git
+  location: https://github.com/input-output-hk/cardano-addresses.git
+  subdir:
+    command-line
+    core
+  tag: d2f86caa085402a953920c6714a0de6a50b655ec
+
+source-repository-package
+  type: git
+  location: https://github.com/input-output-hk/cardano-wallet.git
+  subdir:
+    lib/cli
+    lib/core
+    lib/core-integration
+    lib/dbvar
+    lib/launcher
+    lib/numeric
+    lib/shelley
+    lib/strict-non-empty-containers
+    lib/test-utils
+    lib/text-class
+  tag: 760140e238a5fbca61d1b286d7a80ece058dc729
+
+source-repository-package
+  type: git
+  location: https://github.com/input-output-hk/ouroboros-network.git
+  subdir:
+    io-classes
+    io-sim
+    monoidal-synchronisation
+    network-mux
+    ntp-client
+    ouroboros-consensus
+    ouroboros-consensus-byron
+    ouroboros-consensus-cardano
+    ouroboros-consensus-shelley
+    ouroboros-network
+    ouroboros-network-framework
+    ouroboros-network-testing
+    typed-protocols
+    typed-protocols-cborg
+    typed-protocols-examples
+  tag: d613de3d872ec8b4a5da0c98afb443f322dc4dab
+
+source-repository-package
+  type: git
+  location: https://github.com/input-output-hk/optparse-applicative.git
+  tag: 7497a29cb998721a9068d5725d49461f2bba0e7a
+
+source-repository-package
+  type: git
+  location: https://github.com/input-output-hk/cardano-config.git
+  tag: e9de7a2cf70796f6ff26eac9f9540184ded0e4e6
+
+source-repository-package
+  type: git
+  location: https://github.com/input-output-hk/servant-purescript.git
+  tag: ebea59c7bdfc0338d83fca772b9a57e28560bcde
+
+source-repository-package
+  type: git
+  location: https://github.com/input-output-hk/purescript-bridge.git
+  tag: 366fc70b341e2633f3ad0158a577d52e1cd2b138
+
+-- Was incompatible with some packages, mainly `hashable`
+source-repository-package
+  type: git
+  location: https://github.com/haskell-beam/beam.git
+  subdir:
+    beam-core
+    beam-migrate
+    beam-migrate-cli
+    beam-postgres
+    beam-sqlite
+  tag: 254d02db7c65e66f4041f7a3a5004e5c8876152c
+
+source-repository-package
+  type: git
+  location: https://github.com/Liqwid-Labs/plutus-extra.git
+  subdir:
+    plutus-deriving
+    plutus-extra
+    plutus-golden
+    plutus-laws
+    plutus-list
+    plutus-numeric
+    plutus-pretty
+    plutus-size-check
+    quickcheck-plutus-instances
+    tasty-plutus
+  tag: d1e612bfac56d8e739b8911dacec2e8e87e1713d
