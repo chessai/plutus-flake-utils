@@ -170,7 +170,7 @@
 
       devShell = args: ((flake.dynamic args).devShell).overrideAttrs (old: {
         nativeBuildInputs = old.nativeBuildInputs or [] ++ [
-          (project.dynamic args).hsPkgs.cardano-cli
+          ((project.dynamic args).hsPkgs.cardano-cli.getComponent "exe:cardano-cli")
         ];
       });
     }) //
