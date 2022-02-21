@@ -89,7 +89,7 @@
             (import ./default-gitignore.nix + extraGitignore);
           sha256map = import ./sha256map.nix // extraSha256map;
           atLeastGHC810 = builtins.match "ghc810" compiler-nix-name != null;
-          defaultGHCOptions = builtins.concatStringsSep " " [
+          defaultGHCOptions = [
             "-Wall"
             "-Wcpp-undef"
             "-Widentites"
