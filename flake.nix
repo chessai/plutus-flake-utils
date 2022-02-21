@@ -142,7 +142,7 @@
               pkgs.cabal-install
               pkgs.ghcid
             ];
-          };
+          } // extraShell;
           inherit sha256map;
           inherit index-state;
           inherit index-sha256;
