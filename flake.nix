@@ -92,7 +92,7 @@
           defaultGHCOptions = [
             "-Wall"
             "-Wcpp-undef"
-            "-Widentites"
+            "-Widentities"
             "-Wincomplete-record-updates"
             "-Wincomplete-uni-patterns"
             "-Wmissing-deriving-strategies"
