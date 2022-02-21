@@ -131,6 +131,8 @@ information on these arguments.
             - `-Wunused-packages` (if GHC 8.10+ is available)
         - You can disable any of these by passing in `-fno-warn-X`, where X is
           the name of the warning (the part that comes after the `-W`)
+        - It is ***HIGHLY*** recommended to use `-Werror` for builds that reach
+          production! Ignoring warnings is a recipe for disaster!
      - default: `{ }`
      - example: `{ "packageA" = [ "-ddump-splices" "-fno-cpp-undef" ]; }`
 
