@@ -89,8 +89,10 @@
             (import ./default-gitignore.nix + extraGitignore);
           sha256map = import ./sha256map.nix // extraSha256map;
           atLeastGHC810 = builtins.match "ghc810" compiler-nix-name != null;
+          atLeastGHC9   = builtins.match "ghc9" compiler-nix-name != null;
           defaultGHCOptions = [
             "-Wall"
+            "-Wcompat" # note: in the future, this will be folded into -Wall.
             "-Wcpp-undef"
             "-Widentities"
             "-Wincomplete-record-updates"
@@ -98,7 +100,8 @@
             "-Wmissing-deriving-strategies"
             "-Wmissing-export-lists"
             "-Wpartial-fields"
-          ] ++ nixpkgs.lib.optional atLeastGHC810 [ "-Wunused-packages" ];
+          ] # ++ nixpkgs.lib.optional atLeastGHC810 [ "-Wunused-packages" ] -- this can give wrong results before ghc 9.0.2. disabling for now
+            ++ nixpkgs.lib.optional atLeastGHC9   [ "-Winvalid-haddock" ];
           setGHCOptions = ps: nixpkgs.lib.foldr
             (p: acc: {
               "${p}".ghcOptions =

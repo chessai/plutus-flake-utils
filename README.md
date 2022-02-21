@@ -128,11 +128,12 @@ information on these arguments.
             - `-Wmissing-deriving-strategies`
             - `-Wmissing-export-lists`
             - `-Wpartial-fields`
-            - `-Wunused-packages` (if GHC 8.10+ is available)
+        - We want to enable `-Wunused-packages` (if GHC 8.10+ is available), but
+          currently it can give [incorrect results](https://gitlab.haskell.org/ghc/ghc/-/issues/20460) on GHC < 9.0.2.
         - You can disable any of these by passing in `-fno-warn-X`, where X is
           the name of the warning (the part that comes after the `-W`)
         - It is ***HIGHLY*** recommended to use `-Werror` for builds that reach
-          production! Ignoring warnings is a recipe for disaster!
+          production! Ignoring warnings is often a recipe for disaster!
      - default: `{ }`
      - example: `{ "packageA" = [ "-ddump-splices" "-fno-cpp-undef" ]; }`
 
