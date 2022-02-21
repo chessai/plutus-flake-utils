@@ -33,7 +33,7 @@ If you think of a feature not on this list, please open an issue
 so we can add it!
 
 - Stack support (medium difficulty)
-- Nixpkgs argument support
+- Nixpkgs argument support (low difficulty)
 - Cachix cache set up yet, so expect to build things for a couple hours, use -j (low
   difficulty)
 - Shell HLS (medium difficulty)
