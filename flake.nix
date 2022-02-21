@@ -1,6 +1,6 @@
 {
   description = ''
-    Plutus project flake
+    Plutus project utility flake
   '';
 
   inputs = {
@@ -28,9 +28,6 @@
     , ...
     }:
     let
-      supportedSystems =
-        [ "x86_64-linux" ];
-
       config = haskell-nix.config;
 
       overlaysFor = doStatic:
