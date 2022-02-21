@@ -240,14 +240,14 @@ please open an issue.
     flake-utils.lib.eachSystem supportedSystems (system: rec {
       # this returns an attribute set, so you have
       # pkgs.{dynamic,static}
-      pkgs = plutus-flake.pkgs system;
+      pkgs = plutus-flake-utils.pkgs system;
 
       # this gives you the following attributes:
       # {flake,project}.{dynamic,static}
       # devShell
       # the flake and project can be used in dynamic and static linking
       # settings. devShell always uses dynamic linking.
-      inherit (plutus-flake.plutusProject system projectArgs)
+      inherit (plutus-flake-utils.plutusProject system projectArgs)
         project flake devShell;
     });
 }
