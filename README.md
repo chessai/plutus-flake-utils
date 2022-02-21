@@ -218,7 +218,7 @@ please open an issue.
       url = "github:numtide/flake-utils";
     };
 
-    plutus-flake = {
+    plutus-flake-utils = {
       url = "github:chessai/plutus-flake-utils";
     };
   };
