@@ -25,7 +25,7 @@ and/or is coming.
 - Sensible warning defaults
     - Extensible via `extraGHCOptions`
 - System-agnostic
-- Excepts all arguments that haskell.nix's `cabalProject'` does
+- Accepts all arguments that haskell.nix's `cabalProject'` does
 
 ## Planned features
 Pull requests welcome to add support for any of these.
