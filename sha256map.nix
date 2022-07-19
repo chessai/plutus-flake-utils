@@ -83,6 +83,9 @@
   "https://github.com/input-output-hk/plutus.git"."fec94223a985e34d3b270460c8f150002f41b85b" =
     "1mwknikvbpv9lj43c3ya24v7wpcbpcsrk0fnh6knpi7ds4rmj9j0";
 
+  "https://github.com/input-output-hk/plutus-apps.git"."v2022-04-06" =
+    "1i60z5hcnh61w693zm2x20v6brk3sprcd7bp15w5rb0z3i4s4jy5";
+
   "https://github.com/input-output-hk/ekg-forward.git"."297cd9db5074339a2fb2e5ae7d0780debb670c63" =
     "1zcwry3y5rmd9lgxy89wsb3k4kpffqji35dc7ghzbz603y1gy24g";
 
