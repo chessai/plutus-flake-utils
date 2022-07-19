@@ -8,7 +8,7 @@ allow-newer:
 source-repository-package
   type: git
   location: https://github.com/input-output-hk/plutus.git
-  tag: fec94223a985e34d3b270460c8f150002f41b85b
+  tag: f680ac6979e069fcc013e4389ee607ff5fa6672f
   subdir:
     plutus-core
     plutus-ledger-api
@@ -61,7 +61,7 @@ source-repository-package
 source-repository-package
   type: git
   location: https://github.com/input-output-hk/cardano-base.git
-  tag: 631cb6cf1fa01ab346233b610a38b3b4cba6e6ab
+  tag: 0f3a867493059e650cda69e20a5cbf1ace289a57
   subdir:
     base-deriving-via
     binary
@@ -77,7 +77,7 @@ source-repository-package
 source-repository-package
   type: git
   location: https://github.com/input-output-hk/cardano-prelude.git
-  tag: bb4ed71ba8e587f672d06edf9d2e376f4b055555
+  tag: c7fc9fba236972c27a55e0f3d34c2758cf616bfc
   subdir:
     cardano-prelude
     cardano-prelude-test
@@ -90,7 +90,7 @@ source-repository-package
 source-repository-package
   type: git
   location: https://github.com/input-output-hk/iohk-monitoring-framework.git
-  tag: eb7854d1337637b8672af1227b276aa33a658f47
+  tag: 066f7002aac5a0efc20e49643fea45454f226caa
   subdir:
     contra-tracer
     iohk-monitoring
@@ -104,7 +104,7 @@ source-repository-package
 source-repository-package
   type: git
   location: https://github.com/input-output-hk/cardano-ledger.git
-  tag: c415253fff9a5ce9d7575230fc9098bcfee97653
+  tag: 65292694de72f137e6b90c5f361ae7646b48775f
   subdir:
     eras/alonzo/impl
     eras/alonzo/test-suite
@@ -154,7 +154,7 @@ source-repository-package
     trace-dispatcher
     trace-forward
     trace-resources
-  tag: d0b0fa10ac83dc1d0d40aaf294cfded1b455a0a4
+  tag: c33c06f3ff164c552358d924f444bf0606412344
 
 source-repository-package
   type: git
@@ -196,7 +196,7 @@ source-repository-package
 source-repository-package
   type: git
   location: https://github.com/input-output-hk/ouroboros-network.git
-  tag: ea202b7b21983140d1944ccfde8750b891b59699
+  tag: 69b748ea07ffbaf9c7868645f9f8ca9b58f658b5
   subdir:
     monoidal-synchronisation
     network-mux
@@ -208,7 +208,6 @@ source-repository-package
     ouroboros-network
     ouroboros-network-framework
     ouroboros-network-testing
-    ntp-client
 
 source-repository-package
   type: git
@@ -265,12 +264,12 @@ source-repository-package
 source-repository-package
   type: git
   location: https://github.com/input-output-hk/hedgehog-extras.git
-  tag: 967d79533c21e33387d0227a5f6cc185203fe658
+  tag: 714ee03a5a786a05fc57ac5d2f1c2edce4660d85
 
 source-repository-package
   type: git
   location: https://github.com/input-output-hk/io-sim.git
-  tag: 606de33fa2f467d108fb1efb86daeb3348bf34e3
+  tag: f4183f274d88d0ad15817c7052df3a6a8b40e6dc
   subdir:
     io-classes
     io-sim
@@ -279,7 +278,7 @@ source-repository-package
 source-repository-package
   type: git
   location: https://github.com/input-output-hk/typed-protocols.git
-  tag: 91c3fba44d68439df207796171cd6f867354b76b
+  tag: 181601bc3d9e9d21a671ce01e0b481348b3ca104
   subdir:
     typed-protocols
     typed-protocols-cborg
@@ -292,8 +291,8 @@ source-repository-package
 
 source-repository-package
   type: git
-  location: https://github.com/HeinrichApfelmus/threepenny-gui.git
-  tag: e3bb8283fc7d2e8aa374eea29426002e8dcd67a8
+  location: https://github.com/denisshevchenko/threepenny-gui.git
+  tag: 4ec92ded05ccf59ba4a874be4b404ac1b6d666b6
 
 -- TODO This is a compatibility shim to make it easier for our library dependencies to
 -- be compatible with both aeson 1 & 2.  Once downstream projects are all upgraded to
@@ -304,3 +303,10 @@ source-repository-package
     type: git
     location: https://github.com/haskell-works/hw-aeson.git
     tag: d99d2f3e39a287607418ae605b132a3deb2b753f
+
+-- iog uses an override of this just to make one instance a bit lazier
+-- but i don't care, unless it causes a correctness issue
+--source-repository-package
+--  type: git
+--  location: https://github.com/input-output-hk/aeson.git
+--  tag: be4774468e651d1d512edad278cca7276e978034
