@@ -5,6 +5,7 @@ allow-newer:
   , size-based:template-haskell
   , *:aeson
   , snap-server:attoparsec
+  , ouroboros-consensus:semialign
 
 source-repository-package
   type: git
