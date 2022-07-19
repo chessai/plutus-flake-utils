@@ -200,6 +200,7 @@ source-repository-package
     ouroboros-network
     ouroboros-network-framework
     ouroboros-network-testing
+    ntp-client
 
 source-repository-package
   type: git
