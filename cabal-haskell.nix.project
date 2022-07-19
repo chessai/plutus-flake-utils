@@ -3,6 +3,7 @@
 allow-newer:
     playground-common:recursion-schemes
   , size-based:template-haskell
+  , *:aeson
 
 source-repository-package
   type: git
