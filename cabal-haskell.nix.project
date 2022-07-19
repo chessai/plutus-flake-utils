@@ -20,11 +20,12 @@ source-repository-package
 
 -- main: cb6b8c91fc15406df56f9ad02952b0967d397401
 -- was: v2022-04-06
--- is: 465737e5d91294b1a49d135421d9fe579ae6ae50 (fork of v2022-04-06)
+-- was: 465737e5d91294b1a49d135421d9fe579ae6ae50 (fork of v2022-04-06)
+-- is: main
 source-repository-package
   type: git
   location: https://github.com/chessai/plutus-apps.git
-  tag: 465737e5d91294b1a49d135421d9fe579ae6ae50
+  tag: cb6b8c91fc15406df56f9ad02952b0967d397401
   subdir:
     --doc
     freer-extras
@@ -159,7 +160,7 @@ source-repository-package
 source-repository-package
   type: git
   location: https://github.com/input-output-hk/cardano-addresses.git
-  tag: 3.11.0
+  tag: 71006f9eb956b0004022e80aadd4ad50d837b621
   subdir:
     command-line
     core
@@ -218,7 +219,7 @@ source-repository-package
 source-repository-package
   type: git
   location: https://github.com/input-output-hk/cardano-config.git
-  tag: 1646e9167fab36c0bff82317743b96efa2d3adaa
+  tag: e9de7a2cf70796f6ff26eac9f9540184ded0e4e6
 
 --source-repository-package
 --  type: git
@@ -234,7 +235,7 @@ source-repository-package
 source-repository-package
   type: git
   location: https://github.com/haskell-beam/beam.git
-  tag: v0.9.2.1
+  tag: 66940712a3e5ab578be086f44062173b51263a84
   subdir:
     beam-core
     beam-migrate

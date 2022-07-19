@@ -42,7 +42,7 @@
     "180jq8hd0jlg48ya7b5yw3bnd2d5czy0b1agy9ng3mgnzpyq747i";
 
   "https://github.com/chessai/plutus-apps.git"."465737e5d91294b1a49d135421d9fe579ae6ae50" =
-    "1dg0f3661w4p22b3li9ixr6x344g35psgl3is6ydvsq5hy7liq72";
+    "1i60z5hcnh61w693zm2x20v6brk3sprcd7bp15w5rb0z3i4s4jy5";
 
   "https://github.com/input-output-hk/quickcheck-dynamic.git"."c272906361471d684440f76c297e29ab760f6a1e" =
     "sha256-TioJQASNrQX6B3n2Cv43X2olyT67//CFQqcpvNW7N60=";
@@ -59,16 +59,16 @@
   "https://github.com/input-output-hk/cardano-node.git"."c33c06f3ff164c552358d924f444bf0606412344" =
     "0fgsn2jb9xxj8y3rrj2jpc0k16h7rymhrhhlwa3ialw254bsy52d";
 
-  "https://github.com/input-output-hk/cardano-addresses.git"."3.11.0" =
-    "10yj47gay72kx6v564qlfiigggcpqfdzrg61ii8p25m5n8ijz045";
+  "https://github.com/input-output-hk/cardano-addresses.git"."71006f9eb956b0004022e80aadd4ad50d837b621" =
+    "11dl3fmq7ry5wdmz8kw07ji8yvrxnrsf7pgilw5q9mi4aqyvnaqk";
 
   "https://github.com/input-output-hk/cardano-wallet.git"."c0ece6ad1868682b074708ffb810bdc2ea96934f" =
     "0ii631ak757kjzs7jm625zfv2g28ffjrfkmgslxbbgvwpqxkdbaj";
 
   "https://github.com/input-output-hk/cardano-config.git"."1646e9167fab36c0bff82317743b96efa2d3adaa" =
-    "11kf65x38laqhwspsl28j2x5a4rky8mfr6356w0li5g53sfykmjc";
+    "1wm1c99r5zvz22pdl8nhkp13falvqmj8dgkm8fxskwa9ydqz01ld";
 
-  "https://github.com/haskell-beam/beam.git"."v0.9.2.1" =
+  "https://github.com/haskell-beam/beam.git"."66940712a3e5ab578be086f44062173b51263a84" =
     "0lb67qkcn6sd7im887yqvnh1dinz7ldw0cjy7bjgk2a0cc9mrikp";
 
   "https://github.com/Liqwid-Labs/plutus-extra.git"."ad7e07b4c9bd223bb95ec565bb4f5191b3d3b73c" =
