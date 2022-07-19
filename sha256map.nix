@@ -65,7 +65,7 @@
   "https://github.com/input-output-hk/cardano-wallet.git"."c0ece6ad1868682b074708ffb810bdc2ea96934f" =
     "0ii631ak757kjzs7jm625zfv2g28ffjrfkmgslxbbgvwpqxkdbaj";
 
-  "https://github.com/input-output-hk/cardano-config.git"."1646e9167fab36c0bff82317743b96efa2d3adaa" =
+  "https://github.com/input-output-hk/cardano-config.git"."e9de7a2cf70796f6ff26eac9f9540184ded0e4e6" =
     "1wm1c99r5zvz22pdl8nhkp13falvqmj8dgkm8fxskwa9ydqz01ld";
 
   "https://github.com/haskell-beam/beam.git"."66940712a3e5ab578be086f44062173b51263a84" =
