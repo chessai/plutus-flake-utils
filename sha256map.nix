@@ -116,4 +116,7 @@
 
   "https://github.com/haskell-beam/beam.git"."v0.9.2.1" =
     "0lb67qkcn6sd7im887yqvnh1dinz7ldw0cjy7bjgk2a0cc9mrikp";
+
+  "https://github.com/Liqwid-Labs/plutus-extra.git"."ad7e07b4c9bd223bb95ec565bb4f5191b3d3b73c" =
+    "0x869a3x8i06x3kfjk5v8g9q30w2cmm4rmr8ydizsfk11dhq7cxg";
 }
