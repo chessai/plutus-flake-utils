@@ -113,4 +113,7 @@
 
   "https://github.com/input-output-hk/cardano-config.git"."1646e9167fab36c0bff82317743b96efa2d3adaa" =
     "11kf65x38laqhwspsl28j2x5a4rky8mfr6356w0li5g53sfykmjc";
+
+  "https://github.com/haskell-beam/beam.git"."v0.9.2.1" =
+    "0lb67qkcn6sd7im887yqvnh1dinz7ldw0cjy7bjgk2a0cc9mrikp";
 }

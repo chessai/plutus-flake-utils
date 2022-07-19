@@ -208,27 +208,27 @@ source-repository-package
   location: https://github.com/input-output-hk/cardano-config.git
   tag: 1646e9167fab36c0bff82317743b96efa2d3adaa
 
-source-repository-package
-  type: git
-  location: https://github.com/input-output-hk/servant-purescript.git
-  tag: ebea59c7bdfc0338d83fca772b9a57e28560bcde
+--source-repository-package
+--  type: git
+--  location: https://github.com/input-output-hk/servant-purescript.git
+--  tag: ebea59c7bdfc0338d83fca772b9a57e28560bcde
 
-source-repository-package
-  type: git
-  location: https://github.com/input-output-hk/purescript-bridge.git
-  tag: 366fc70b341e2633f3ad0158a577d52e1cd2b138
+--source-repository-package
+--  type: git
+--  location: https://github.com/input-output-hk/purescript-bridge.git
+--  tag: 366fc70b341e2633f3ad0158a577d52e1cd2b138
 
 -- Was incompatible with some packages, mainly `hashable`
 source-repository-package
   type: git
   location: https://github.com/haskell-beam/beam.git
+  tag: v0.9.2.1
   subdir:
     beam-core
     beam-migrate
     beam-migrate-cli
     beam-postgres
     beam-sqlite
-  tag: 254d02db7c65e66f4041f7a3a5004e5c8876152c
 
 source-repository-package
   type: git
