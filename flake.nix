@@ -24,7 +24,6 @@
     , nixpkgs
     , haskell-nix
     , iohk-nix
-    , flake-utils
     , ...
     }:
     let
