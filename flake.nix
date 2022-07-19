@@ -126,6 +126,7 @@
               plutus-use-cases.flags.defer-plugin-errors = deferPluginErrors;
               plutus-ledger.flags.defer-plugin-errors = deferPluginErrors;
               plutus-contract.flags.defer-plugin-errors = deferPluginErrors;
+              plutus-script-utils.flags.defer-plugin-errors = deferPluginErrors;
               cardano-crypto-praos.components.library.pkgconfig =
                 nixpkgs.lib.mkForce [ [ pkgs.libsodium-vrf ] ];
               cardano-crypto-class.components.library.pkgconfig =
