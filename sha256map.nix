@@ -1,8 +1,8 @@
-{
+/*{
   "https://github.com/input-output-hk/plutus.git"."2721c59fd2302b75c4138456c29fd5b509e8340a" =
     "02g8pzldyfl4pm8sy22yd3l2fr3zpyhwkvv9x3h9lsf6lfx5wi7k";
-  "https://github.com/input-output-hk/plutus-apps.git"."v2021-12-20" =
-    "0zbgpd0g0iaik72mh92y394mrfpzh0jlgyqp54zv7bibfhpc09ck";
+  #"https://github.com/input-output-hk/plutus-apps.git"."v2021-12-20" =
+  #  "0zbgpd0g0iaik72mh92y394mrfpzh0jlgyqp54zv7bibfhpc09ck";
   "https://github.com/Quid2/flat.git"."ee59880f47ab835dbd73bea0847dab7869fc20d8" =
     "1lrzknw765pz2j97nvv9ip3l1mcpf2zr4n56hwlz0rk7wq7ls4cm";
   "https://github.com/input-output-hk/cardano-crypto.git"."f73079303f663e028288f9f4a9e08bcca39a923e" =
@@ -40,6 +40,7 @@
   "https://github.com/Liqwid-Labs/plutus-extra.git"."d1e612bfac56d8e739b8911dacec2e8e87e1713d" =
     "b8bi7Bbh2aC03AuXJ6RB7ThSz7nHPGWDoEqMjcbeo6E=";
 } //
+*/
 {
   "https://github.com/input-output-hk/optparse-applicative.git"."7497a29cb998721a9068d5725d49461f2bba0e7a" =
     "1gvsrg925vynwgqwplgjmp53vj953qyh3wbdf34pw21c8r47w35r";
@@ -83,11 +84,14 @@
   "https://github.com/input-output-hk/plutus.git"."fec94223a985e34d3b270460c8f150002f41b85b" =
     "1mwknikvbpv9lj43c3ya24v7wpcbpcsrk0fnh6knpi7ds4rmj9j0";
 
-  "https://github.com/input-output-hk/plutus-apps.git"."v2022-04-06" =
-    "1i60z5hcnh61w693zm2x20v6brk3sprcd7bp15w5rb0z3i4s4jy5";
+  #"https://github.com/input-output-hk/plutus-apps.git"."v2022-04-06" =
+  #  "1i60z5hcnh61w693zm2x20v6brk3sprcd7bp15w5rb0z3i4s4jy5";
 
   "https://github.com/input-output-hk/plutus-apps.git"."cb6b8c91fc15406df56f9ad02952b0967d397401" =
     "1i60z5hcnh61w693zm2x20v6brk3sprcd7bp15w5rb0z3i4s4jy5";
+
+  "https://github.com/input-output-hk/quickcheck-dynamic.git"."c272906361471d684440f76c297e29ab760f6a1e" =
+    "1jvawxxq4npb3rhhr0sq8q3qfm223z8mia8f0nrslb0yn7lns9sc";
 
   "https://github.com/input-output-hk/ekg-forward.git"."297cd9db5074339a2fb2e5ae7d0780debb670c63" =
     "1zcwry3y5rmd9lgxy89wsb3k4kpffqji35dc7ghzbz603y1gy24g";
