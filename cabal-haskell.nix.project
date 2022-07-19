@@ -169,7 +169,14 @@ source-repository-package
   tag: c0ece6ad1868682b074708ffb810bdc2ea96934f
   subdir:
     lib/core
+    lib/dbvar
+    lib/core-integration
+    lib/cli
+    lib/launcher
+    lib/numeric
     lib/text-class
+    lib/test-utils
+    lib/shelley
     lib/strict-non-empty-containers
 
 --  subdir:
