@@ -5,32 +5,32 @@
   "https://github.com/vshabanov/ekg-json.git"."00ebe7211c981686e65730b7144fbf5350462608" =
     "1zvjm3pb38w0ijig5wk5mdkzcszpmlp5d4zxvks2jk1rkypi8gsm";
 
-  "https://github.com/input-output-hk/hedgehog-extras.git"."714ee03a5a786a05fc57ac5d2f1c2edce4660d85" =
-    "1qa4mm36xynaf17990ijmzww0ij8hjrc0vw5nas6d0zx6q9hb978";
+  "https://github.com/input-output-hk/hedgehog-extras.git"."edf6945007177a638fbeb8802397f3a6f4e47c14" =
+    "0wc7qzkc7j4ns2rz562h6qrx2f8xyq7yjcb7zidnj7f6j0pcd0i9";
 
-  "https://github.com/input-output-hk/cardano-base.git"."0f3a867493059e650cda69e20a5cbf1ace289a57" =
-    "0p0az3sbkhb7njji8xxdrfb0yx2gc8fmrh872ffm8sfip1w29gg1";
+  "https://github.com/input-output-hk/cardano-base.git"."41545ba3ac6b3095966316a99883d678b5ab8da8" =
+    "0icq9y3nnl42fz536da84414av36g37894qnyw4rk3qkalksqwir";
 
   "https://github.com/input-output-hk/cardano-crypto.git"."f73079303f663e028288f9f4a9e08bcca39a923e" =
     "1n87i15x54s0cjkh3nsxs4r1x016cdw1fypwmr68936n3xxsjn6q";
 
-  "https://github.com/input-output-hk/cardano-ledger.git"."65292694de72f137e6b90c5f361ae7646b48775f" =
-    "05m1c7v8a2797675gkagpzl6bcjnj7w6lnx5x7hf90847ap88b05";
+  "https://github.com/input-output-hk/cardano-ledger.git"."1a9ec4ae9e0b09d54e49b2a40c4ead37edadcce5" =
+    "0avzyiqq0m8njd41ck9kpn992yq676b1az9xs77977h7cf85y4wm";
 
-  "https://github.com/input-output-hk/cardano-prelude.git"."c7fc9fba236972c27a55e0f3d34c2758cf616bfc" =
-    "0sg1hhnifqxfc5n5f9ikbxyrjlg77hynbhsql0h4smqniw29dbwk";
+  "https://github.com/input-output-hk/cardano-prelude.git"."bb4ed71ba8e587f672d06edf9d2e376f4b055555" =
+    "00h10l5mmiza9819p9v5q5749nb9pzgi20vpzpy1d34zmh6gf1cj";
 
   "https://github.com/input-output-hk/goblins.git"."cde90a2b27f79187ca8310b6549331e59595e7ba" =
     "17c88rbva3iw82yg9srlxjv2ia5wjb9cyqw44hik565f5v9svnyg";
 
-  "https://github.com/input-output-hk/iohk-monitoring-framework.git"."066f7002aac5a0efc20e49643fea45454f226caa" =
-    "0s6x4in11k5ba7nl7la896g28sznf9185xlqg9c604jqz58vj9nj";
+  "https://github.com/input-output-hk/iohk-monitoring-framework.git"."46f994e216a1f8b36fe4669b47b2a7011b0e153c" =
+    "1il8fx3misp3650ryj368b3x95ksz01zz3x0z9k00807j93d0ka0";
 
   "https://github.com/input-output-hk/Win32-network.git"."3825d3abf75f83f406c1f7161883c438dac7277d" =
     "19wahfv726fa3mqajpqdqhnl9ica3xmf68i254q45iyjcpj1psqx";
 
-  "https://github.com/input-output-hk/ouroboros-network.git"."69b748ea07ffbaf9c7868645f9f8ca9b58f658b5" =
-    "0yfici9p5gbj7gzpbk19izwsksagzc8fjls3cax291128jyvpi7w";
+  "https://github.com/input-output-hk/ouroboros-network.git"."4fac197b6f0d2ff60dc3486c593b68dc00969fbf" =
+    "1b43vbdsr9m3ry1kgag2p2ixpv54gw7a4vvmndxl6knqg8qbsb8b";
 
   "https://github.com/input-output-hk/io-sim.git"."f4183f274d88d0ad15817c7052df3a6a8b40e6dc" =
     "0vb2pd9hl89v2y5hrhrsm69yx0jf98vppjmfncj2fraxr3p3lldw";
@@ -45,7 +45,10 @@
       "1rxl2iva0b73n1lzxzb8499xfm57c04gav5433xc9s8inxzfz01y";
 
   "https://github.com/input-output-hk/quickcheck-dynamic.git"."c272906361471d684440f76c297e29ab760f6a1e" =
-    "sha256-TioJQASNrQX6B3n2Cv43X2olyT67//CFQqcpvNW7N60=";
+    "1b9ppgavqad78a2z1zxv7v4jasjz6zz0mxkr0zx0bbcd0i00jajf";
+
+  "https://github.com/raduom/hysterical-screams.git"."4c523469e9efd3f0d10d17da3304923b7b0e0674" =
+    "0w118v4vffrsjxfmwfv8qcn2qxmxpd1gxwcjnda91qz09jnpg0vp";
 
   "https://github.com/input-output-hk/ekg-forward.git"."297cd9db5074339a2fb2e5ae7d0780debb670c63" =
     "1zcwry3y5rmd9lgxy89wsb3k4kpffqji35dc7ghzbz603y1gy24g";
@@ -62,8 +65,8 @@
   "https://github.com/input-output-hk/cardano-addresses.git"."71006f9eb956b0004022e80aadd4ad50d837b621" =
     "11dl3fmq7ry5wdmz8kw07ji8yvrxnrsf7pgilw5q9mi4aqyvnaqk";
 
-  "https://github.com/input-output-hk/cardano-wallet.git"."c0ece6ad1868682b074708ffb810bdc2ea96934f" =
-    "0ii631ak757kjzs7jm625zfv2g28ffjrfkmgslxbbgvwpqxkdbaj";
+  "https://github.com/input-output-hk/cardano-wallet.git"."f6d4db733c4e47ee11683c343b440552f59beff7" =
+    "0gb3zyv3q5v5sd8r29s02yc0brwq5a01is9c0n528391n2r8g1yy";
 
   "https://github.com/input-output-hk/cardano-config.git"."e9de7a2cf70796f6ff26eac9f9540184ded0e4e6" =
     "1wm1c99r5zvz22pdl8nhkp13falvqmj8dgkm8fxskwa9ydqz01ld";
@@ -76,6 +79,12 @@
 
   "https://github.com/haskell-works/hw-aeson.git"."d99d2f3e39a287607418ae605b132a3deb2b753f" =
     "1vxqcwjg9q37wbwi27y9ba5163lzfz51f1swbi0rp681yg63zvn4";
+
+  "https://github.com/input-output-hk/servant-purescript.git"."44e7cacf109f84984cd99cd3faf185d161826963" =
+    "10pb0yfp80jhb9ryn65a4rha2lxzsn2vlhcc6xphrrkf4x5lhzqc";
+
+  "https://github.com/input-output-hk/purescript-bridge.git"."47a1f11825a0f9445e0f98792f79172efef66c00" =
+    "0da1vn2l6iyfxcjk58qal1l4755v92zi6yppmjmqvxf1gacyf9px";
 }
 
 #{

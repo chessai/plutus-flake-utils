@@ -65,14 +65,13 @@ source-repository-package
 source-repository-package
   type: git
   location: https://github.com/input-output-hk/cardano-base.git
-  tag: 0f3a867493059e650cda69e20a5cbf1ace289a57
+  tag: 41545ba3ac6b3095966316a99883d678b5ab8da8
   subdir:
     base-deriving-via
     binary
     binary/test
     cardano-crypto-class
     cardano-crypto-praos
-    cardano-crypto-tests
     measures
     orphans-deriving-via
     slotting
@@ -81,7 +80,7 @@ source-repository-package
 source-repository-package
   type: git
   location: https://github.com/input-output-hk/cardano-prelude.git
-  tag: c7fc9fba236972c27a55e0f3d34c2758cf616bfc
+  tag: bb4ed71ba8e587f672d06edf9d2e376f4b055555
   subdir:
     cardano-prelude
     cardano-prelude-test
@@ -94,26 +93,22 @@ source-repository-package
 source-repository-package
   type: git
   location: https://github.com/input-output-hk/iohk-monitoring-framework.git
-  tag: 066f7002aac5a0efc20e49643fea45454f226caa
+  tag: 46f994e216a1f8b36fe4669b47b2a7011b0e153c
   subdir:
     contra-tracer
     iohk-monitoring
-    plugins/backend-aggregation
+    tracer-transformers
     plugins/backend-ekg
+    plugins/backend-aggregation
     plugins/backend-monitoring
     plugins/backend-trace-forwarder
-    plugins/scribe-systemd
-    tracer-transformers
 
 source-repository-package
   type: git
   location: https://github.com/input-output-hk/cardano-ledger.git
-  tag: 65292694de72f137e6b90c5f361ae7646b48775f
+  tag: 1a9ec4ae9e0b09d54e49b2a40c4ead37edadcce5
   subdir:
     eras/alonzo/impl
-    eras/alonzo/test-suite
-    eras/babbage/impl
-    eras/babbage/test-suite
     eras/byron/chain/executable-spec
     eras/byron/crypto
     eras/byron/crypto/test
@@ -123,16 +118,15 @@ source-repository-package
     eras/shelley/impl
     eras/shelley/test-suite
     eras/shelley-ma/impl
-    eras/shelley-ma/test-suite
+    libs/cardano-data
     libs/cardano-ledger-core
     libs/cardano-ledger-pretty
     libs/cardano-protocol-tpraos
-    libs/cardano-data
-    libs/vector-map
+    libs/compact-map
+    libs/non-integral
     libs/set-algebra
     libs/small-steps
     libs/small-steps-test
-    libs/non-integral
 
 source-repository-package
   type: git
@@ -173,39 +167,29 @@ source-repository-package
 source-repository-package
   type: git
   location: https://github.com/input-output-hk/cardano-wallet.git
-  tag: c0ece6ad1868682b074708ffb810bdc2ea96934f
+  tag: f6d4db733c4e47ee11683c343b440552f59beff7
   subdir:
-    lib/core
-    lib/dbvar
-    lib/core-integration
     lib/cli
+    lib/core
+    lib/core-integration
+    lib/dbvar
     lib/launcher
     lib/numeric
-    lib/text-class
-    lib/test-utils
-    -- lib/shelley
+    lib/shelley
     lib/strict-non-empty-containers
-
---  subdir:
---    lib/cli
---    lib/core
---    lib/core-integration
---    lib/dbvar
---    lib/launcher
---    lib/numeric
---    lib/shelley
---    lib/strict-non-empty-containers
---    lib/test-utils
---    lib/text-class
---  tag: 760140e238a5fbca61d1b286d7a80ece058dc729
+    lib/test-utils
+    lib/text-class
 
 source-repository-package
   type: git
   location: https://github.com/input-output-hk/ouroboros-network.git
-  tag: 69b748ea07ffbaf9c7868645f9f8ca9b58f658b5
+  tag: 4fac197b6f0d2ff60dc3486c593b68dc00969fbf
   subdir:
+    io-classes
+    io-sim
     monoidal-synchronisation
     network-mux
+    ntp-client
     ouroboros-consensus
     ouroboros-consensus-byron
     ouroboros-consensus-cardano
@@ -214,7 +198,10 @@ source-repository-package
     ouroboros-network
     ouroboros-network-framework
     ouroboros-network-testing
-    ntp-client
+    strict-stm
+    typed-protocols
+    typed-protocols-cborg
+    typed-protocols-examples
 
 source-repository-package
   type: git
@@ -271,25 +258,7 @@ source-repository-package
 source-repository-package
   type: git
   location: https://github.com/input-output-hk/hedgehog-extras.git
-  tag: 714ee03a5a786a05fc57ac5d2f1c2edce4660d85
-
-source-repository-package
-  type: git
-  location: https://github.com/input-output-hk/io-sim.git
-  tag: f4183f274d88d0ad15817c7052df3a6a8b40e6dc
-  subdir:
-    io-classes
-    io-sim
-    strict-stm
-
-source-repository-package
-  type: git
-  location: https://github.com/input-output-hk/typed-protocols.git
-  tag: 181601bc3d9e9d21a671ce01e0b481348b3ca104
-  subdir:
-    typed-protocols
-    typed-protocols-cborg
-    typed-protocols-examples
+  tag: edf6945007177a638fbeb8802397f3a6f4e47c14
 
 source-repository-package
   type: git
@@ -301,15 +270,25 @@ source-repository-package
   location: https://github.com/denisshevchenko/threepenny-gui.git
   tag: 4ec92ded05ccf59ba4a874be4b404ac1b6d666b6
 
+source-repository-package
+  type: git
+  location: https://github.com/input-output-hk/servant-purescript.git
+  tag: 44e7cacf109f84984cd99cd3faf185d161826963
+
+source-repository-package
+  type: git
+  location: https://github.com/input-output-hk/purescript-bridge.git
+  tag: 47a1f11825a0f9445e0f98792f79172efef66c00
+
 -- TODO This is a compatibility shim to make it easier for our library dependencies to
 -- be compatible with both aeson 1 & 2.  Once downstream projects are all upgraded to
 -- work with aeson-2, library dependencies will need to be updated to no longer use
 -- this compatibility shim and have bounds to indicate they work with aeson-2 only.
 -- After this, the dependency to hw-aeson can be dropped.
 source-repository-package
-    type: git
-    location: https://github.com/haskell-works/hw-aeson.git
-    tag: d99d2f3e39a287607418ae605b132a3deb2b753f
+  type: git
+  location: https://github.com/haskell-works/hw-aeson.git
+  tag: d99d2f3e39a287607418ae605b132a3deb2b753f
 
 -- iog uses an override of this just to make one instance a bit lazier
 -- but i don't care, unless it causes a correctness issue
