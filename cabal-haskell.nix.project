@@ -4,6 +4,7 @@ allow-newer:
     playground-common:recursion-schemes
   , size-based:template-haskell
   , *:aeson
+  , snap-server:attoparsec
 
 source-repository-package
   type: git
