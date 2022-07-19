@@ -84,11 +84,14 @@
   "https://github.com/input-output-hk/plutus.git"."fec94223a985e34d3b270460c8f150002f41b85b" =
     "1mwknikvbpv9lj43c3ya24v7wpcbpcsrk0fnh6knpi7ds4rmj9j0";
 
-  "https://github.com/input-output-hk/plutus-apps.git"."619012425a99f26b54ee906ab62ca5fe7e32dbc2" =
-    "sha256-YYhtBJP25aiSp7bzQEzPVM/3IzOrhWEO14GA1pCM5D4=";
+  #"https://github.com/input-output-hk/plutus-apps.git"."619012425a99f26b54ee906ab62ca5fe7e32dbc2" =
+  #  "sha256-YYhtBJP25aiSp7bzQEzPVM/3IzOrhWEO14GA1pCM5D4=";
 
   #"https://github.com/input-output-hk/plutus-apps.git"."cb6b8c91fc15406df56f9ad02952b0967d397401" =
   #  "1i60z5hcnh61w693zm2x20v6brk3sprcd7bp15w5rb0z3i4s4jy5";
+
+  "https://github.com/chessai/plutus-apps.git"."465737e5d91294b1a49d135421d9fe579ae6ae50" =
+    "1dg0f3661w4p22b3li9ixr6x344g35psgl3is6ydvsq5hy7liq72";
 
   "https://github.com/input-output-hk/quickcheck-dynamic.git"."c272906361471d684440f76c297e29ab760f6a1e" =
     "sha256-TioJQASNrQX6B3n2Cv43X2olyT67//CFQqcpvNW7N60=";
