@@ -104,4 +104,7 @@
 
   "https://github.com/input-output-hk/cardano-node.git"."d0b0fa10ac83dc1d0d40aaf294cfded1b455a0a4" =
     "0dli80jjmakjzzwp39iacjzqlia9apqrwqmfvvhghx6fhi60cykv";
+
+  "https://github.com/input-output-hk/cardano-addresses.git"."3.11.0" =
+    "10yj47gay72kx6v564qlfiigggcpqfdzrg61ii8p25m5n8ijz045";
 }
