@@ -34,7 +34,7 @@ source-repository-package
     --plutus-pab
     --plutus-playground-server
     --plutus-use-cases
-    --quickcheck-dynamic
+    quickcheck-dynamic
     --web-ghc
 
 -- https://github.com/Quid2/flat/pull/22 fixes a potential exception
