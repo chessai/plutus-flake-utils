@@ -239,7 +239,6 @@ source-repository-package
     plutus-extra
     plutus-golden
     plutus-laws
-    plutus-list
     plutus-numeric
     plutus-pretty
     plutus-size-check
