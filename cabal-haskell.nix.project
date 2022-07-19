@@ -19,10 +19,11 @@ source-repository-package
     word-array
 
 -- was cb6b8c91fc15406df56f9ad02952b0967d397401
+-- is: v2022-04-06
 source-repository-package
   type: git
   location: https://github.com/input-output-hk/plutus-apps.git
-  tag: v2022-04-06
+  tag: 619012425a99f26b54ee906ab62ca5fe7e32dbc2
   subdir:
     --doc
     freer-extras
