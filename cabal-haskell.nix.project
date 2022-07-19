@@ -231,20 +231,20 @@ source-repository-package
     beam-postgres
     beam-sqlite
 
-source-repository-package
-  type: git
-  location: https://github.com/Liqwid-Labs/plutus-extra.git
-  tag: ad7e07b4c9bd223bb95ec565bb4f5191b3d3b73c
-  subdir:
-    plutus-deriving
-    plutus-extra
-    plutus-golden
-    plutus-laws
-    plutus-numeric
-    plutus-pretty
-    plutus-size-check
-    quickcheck-plutus-instances
-    tasty-plutus
+--source-repository-package
+--  type: git
+--  location: https://github.com/Liqwid-Labs/plutus-extra.git
+--  tag: ad7e07b4c9bd223bb95ec565bb4f5191b3d3b73c
+--  subdir:
+--    plutus-deriving
+--    plutus-extra
+--    plutus-golden
+--    plutus-laws
+--    plutus-numeric
+--    plutus-pretty
+--    plutus-size-check
+--    quickcheck-plutus-instances
+--    tasty-plutus
 
 source-repository-package
   type: git
