@@ -32,7 +32,7 @@ source-repository-package
     --plutus-contract
     plutus-ledger
     plutus-ledger-constraints
-    --plutus-script-utils
+    plutus-script-utils
     --plutus-pab
     --plutus-playground-server
     --plutus-use-cases
