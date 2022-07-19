@@ -110,4 +110,7 @@
 
   "https://github.com/input-output-hk/cardano-wallet.git"."v2022-07-01" =
     "0ii631ak757kjzs7jm625zfv2g28ffjrfkmgslxbbgvwpqxkdbaj";
+
+  "https://github.com/input-output-hk/cardano-config.git"."1646e9167fab36c0bff82317743b96efa2d3adaa" =
+    "11kf65x38laqhwspsl28j2x5a4rky8mfr6356w0li5g53sfykmjc";
 }
