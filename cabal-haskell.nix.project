@@ -22,10 +22,13 @@ source-repository-package
 -- was: v2022-04-06
 -- was: 465737e5d91294b1a49d135421d9fe579ae6ae50 (fork of v2022-04-06)
 -- is: main
+--
+-- they re-export a bunch of modules and i don't know where they
+-- come from. my fork just removes the re-exports
 source-repository-package
   type: git
-  location: https://github.com/input-output-hk/plutus-apps.git
-  tag: cb6b8c91fc15406df56f9ad02952b0967d397401
+  location: https://github.com/chessai/plutus-apps.git
+  tag: 989f1438d8f2f99e3dd7d3a2d4e746afdeb31895
   subdir:
     --doc
     freer-extras
