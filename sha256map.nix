@@ -91,7 +91,7 @@
     "1i60z5hcnh61w693zm2x20v6brk3sprcd7bp15w5rb0z3i4s4jy5";
 
   "https://github.com/input-output-hk/quickcheck-dynamic.git"."c272906361471d684440f76c297e29ab760f6a1e" =
-    "TCdt6bEeLKqzBQ6pWNEfQlSHB0ZYgwxhHutagnvnass=";
+    "sha256-TioJQASNrQX6B3n2Cv43X2olyT67//CFQqcpvNW7N60=";
 
   "https://github.com/input-output-hk/ekg-forward.git"."297cd9db5074339a2fb2e5ae7d0780debb670c63" =
     "1zcwry3y5rmd9lgxy89wsb3k4kpffqji35dc7ghzbz603y1gy24g";
