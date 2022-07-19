@@ -23,19 +23,19 @@ source-repository-package
   location: https://github.com/input-output-hk/plutus-apps.git
   tag: v2022-04-06
   subdir:
-    doc
+    --doc
     freer-extras
-    playground-common
+    --playground-common
     plutus-chain-index
     plutus-chain-index-core
     plutus-contract
     plutus-ledger
     plutus-ledger-constraints
-    plutus-pab
-    plutus-playground-server
-    plutus-use-cases
-    quickcheck-dynamic
-    web-ghc
+    --plutus-pab
+    --plutus-playground-server
+    --plutus-use-cases
+    --quickcheck-dynamic
+    --web-ghc
 
 -- https://github.com/Quid2/flat/pull/22 fixes a potential exception
 -- when decoding invalid (e.g. malicious) text literals.
