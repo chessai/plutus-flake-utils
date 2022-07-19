@@ -176,7 +176,7 @@ source-repository-package
     lib/numeric
     lib/text-class
     lib/test-utils
-    lib/shelley
+    -- lib/shelley
     lib/strict-non-empty-containers
 
 --  subdir:
