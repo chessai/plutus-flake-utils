@@ -18,24 +18,24 @@ source-repository-package
     stubs/plutus-ghc-stub
     word-array
 
-source-repository-package
-  type: git
-  location: https://github.com/input-output-hk/plutus-apps.git
-  subdir:
-    doc
-    freer-extras
-    playground-common
-    plutus-chain-index
-    plutus-chain-index-core
-    plutus-contract
-    plutus-ledger
-    plutus-ledger-constraints
-    plutus-pab
-    plutus-playground-server
-    plutus-use-cases
-    quickcheck-dynamic
-    web-ghc
-  tag: v2021-12-20
+--source-repository-package
+--  type: git
+--  location: https://github.com/input-output-hk/plutus-apps.git
+--  subdir:
+--    doc
+--    freer-extras
+--    playground-common
+--    plutus-chain-index
+--    plutus-chain-index-core
+--    plutus-contract
+--    plutus-ledger
+--    plutus-ledger-constraints
+--    plutus-pab
+--    plutus-playground-server
+--    plutus-use-cases
+--    quickcheck-dynamic
+--    web-ghc
+--  tag: v2021-12-20
 
 -- https://github.com/Quid2/flat/pull/22 fixes a potential exception
 -- when decoding invalid (e.g. malicious) text literals.
