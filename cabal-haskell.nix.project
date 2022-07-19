@@ -155,9 +155,14 @@ source-repository-package
     core
   tag: d2f86caa085402a953920c6714a0de6a50b655ec
 
---source-repository-package
---  type: git
---  location: https://github.com/input-output-hk/cardano-wallet.git
+source-repository-package
+  type: git
+  location: https://github.com/input-output-hk/cardano-wallet.git
+  tag: 760140e238a5fbca61d1b286d7a80ece058dc729
+  subdir:
+    lib/text-class
+    lib/strict-non-empty-containers
+
 --  subdir:
 --    lib/cli
 --    lib/core
