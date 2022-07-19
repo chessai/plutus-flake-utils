@@ -122,4 +122,7 @@
 
   "https://github.com/Liqwid-Labs/plutus-extra.git"."ad7e07b4c9bd223bb95ec565bb4f5191b3d3b73c" =
     "0x869a3x8i06x3kfjk5v8g9q30w2cmm4rmr8ydizsfk11dhq7cxg";
+
+  "https://github.com/haskell-works/hw-aeson.git"."d99d2f3e39a287607418ae605b132a3deb2b753f" =
+    "1vxqcwjg9q37wbwi27y9ba5163lzfz51f1swbi0rp681yg63zvn4";
 }

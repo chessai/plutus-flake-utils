@@ -294,3 +294,13 @@ source-repository-package
   type: git
   location: https://github.com/HeinrichApfelmus/threepenny-gui.git
   tag: e3bb8283fc7d2e8aa374eea29426002e8dcd67a8
+
+-- TODO This is a compatibility shim to make it easier for our library dependencies to
+-- be compatible with both aeson 1 & 2.  Once downstream projects are all upgraded to
+-- work with aeson-2, library dependencies will need to be updated to no longer use
+-- this compatibility shim and have bounds to indicate they work with aeson-2 only.
+-- After this, the dependency to hw-aeson can be dropped.
+source-repository-package
+    type: git
+    location: https://github.com/haskell-works/hw-aeson.git
+    tag: d99d2f3e39a287607418ae605b132a3deb2b753f
