@@ -108,7 +108,7 @@
   "https://github.com/input-output-hk/cardano-addresses.git"."3.11.0" =
     "10yj47gay72kx6v564qlfiigggcpqfdzrg61ii8p25m5n8ijz045";
 
-  "https://github.com/input-output-hk/cardano-wallet.git"."v2022-07-01" =
+  "https://github.com/input-output-hk/cardano-wallet.git"."c0ece6ad1868682b074708ffb810bdc2ea96934f" =
     "0ii631ak757kjzs7jm625zfv2g28ffjrfkmgslxbbgvwpqxkdbaj";
 
   "https://github.com/input-output-hk/cardano-config.git"."1646e9167fab36c0bff82317743b96efa2d3adaa" =
