@@ -85,7 +85,7 @@
     "1mwknikvbpv9lj43c3ya24v7wpcbpcsrk0fnh6knpi7ds4rmj9j0";
 
   "https://github.com/input-output-hk/plutus-apps.git"."619012425a99f26b54ee906ab62ca5fe7e32dbc2" =
-    "1i60z5hcnh61w693zm2x20v6brk3sprcd7bp15w5rb0z3i4s4jy5";
+    "sha256-YYhtBJP25aiSp7bzQEzPVM/3IzOrhWEO14GA1pCM5D4=";
 
   #"https://github.com/input-output-hk/plutus-apps.git"."cb6b8c91fc15406df56f9ad02952b0967d397401" =
   #  "1i60z5hcnh61w693zm2x20v6brk3sprcd7bp15w5rb0z3i4s4jy5";
