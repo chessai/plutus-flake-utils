@@ -56,7 +56,7 @@
   "https://github.com/denisshevchenko/threepenny-gui.git"."4ec92ded05ccf59ba4a874be4b404ac1b6d666b6" =
     "00fvvaf4ir4hskq4a6gggbh2wmdvy8j8kn6s4m1p1vlh8m8mq514";
 
-  "https://github.com/input-output-hk/flat.git"."ee59880f47ab835dbd73bea0847dab7869fc20d8" =
+  "https://github.com/Quid2/flat.git"."ee59880f47ab835dbd73bea0847dab7869fc20d8" =
     "1lrzknw765pz2j97nvv9ip3l1mcpf2zr4n56hwlz0rk7wq7ls4cm";
 
   "https://github.com/input-output-hk/cardano-node.git"."2b1d18c6c7b7142d9eebfec34da48840ed4409b6" =
@@ -80,14 +80,15 @@
   "https://github.com/haskell-works/hw-aeson.git"."d99d2f3e39a287607418ae605b132a3deb2b753f" =
     "1vxqcwjg9q37wbwi27y9ba5163lzfz51f1swbi0rp681yg63zvn4";
 
+  "https://github.com/input-output-hk/hjsonpointer.git"."bb99294424e0c5b3c2942c743b545e4b01c12ce8" =
+    "11z5s4xmm6cxy6sdcf9ly4lr0qh3c811hpm0bmlp4c3yq8v3m9rk";
+
+  "https://github.com/input-output-hk/hjsonschema.git"."1546af7fc267d5eea805ef223dd2b59ac120b784" =
+    "0sdikhsq6nnhmmvcpwzzrwfn9cn7rg75629qnrx01i5vm5ci4314";
+
   "https://github.com/input-output-hk/servant-purescript.git"."44e7cacf109f84984cd99cd3faf185d161826963" =
     "10pb0yfp80jhb9ryn65a4rha2lxzsn2vlhcc6xphrrkf4x5lhzqc";
 
   "https://github.com/input-output-hk/purescript-bridge.git"."47a1f11825a0f9445e0f98792f79172efef66c00" =
     "0da1vn2l6iyfxcjk58qal1l4755v92zi6yppmjmqvxf1gacyf9px";
 }
-
-#{
-  #"https://github.com/input-output-hk/aeson.git"."be4774468e651d1d512edad278cca7276e978034" =
-  #  "12fr5xnr3ax0r5gzwbf4v49yirppgprmvzlfj1ldx4zhcrdf5j7j";
-#}
