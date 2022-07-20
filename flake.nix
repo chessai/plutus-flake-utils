@@ -58,7 +58,7 @@
         , extraGitignore ? ""
         , compiler-nix-name ? throw "compiler-nix-name must be provided"
         , cabalProjectFileName ? "cabal.project"
-        , index-state ? "2022-02-22T20:47:03Z"
+        , index-state ? "2022-05-18T00:00:00Z"
         , index-sha256 ? null
         , plan-sha256 ? null
         , materialized ? null
