@@ -25,10 +25,11 @@ source-repository-package
     stubs/plutus-ghc-stub
     word-array
 
+-- Tracks the next-node branch
 source-repository-package
   type: git
-  location: https://github.com/chessai/plutus-apps.git
-  tag: 91b71a728f90e595358adfef205ed3cfd8800301
+  location: https://github.com/input-output-hk/plutus-apps.git
+  tag: e90be95e8dae0cc1b9641b765a74be2508641eab
   subdir:
     --doc
     freer-extras

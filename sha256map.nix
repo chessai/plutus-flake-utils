@@ -41,8 +41,8 @@
   "https://github.com/input-output-hk/plutus.git"."69ab98c384703172f898eb5bcad1078ded521426" =
     "0n3acmb6amyz11zqqcv7h8b2y4gdaly8a3zsc5yi7nfpj93h6g01";
 
-  "https://github.com/chessai/plutus-apps.git"."989f1438d8f2f99e3dd7d3a2d4e746afdeb31895" =
-      "1rxl2iva0b73n1lzxzb8499xfm57c04gav5433xc9s8inxzfz01y";
+  "https://github.com/input-output-hk/plutus-apps.git"."e90be95e8dae0cc1b9641b765a74be2508641eab" =
+    "1ihqgc3vks6zifa2wyxzznaqh9jha0c07wkg67q80438qhcz43zr";
 
   "https://github.com/input-output-hk/quickcheck-dynamic.git"."c272906361471d684440f76c297e29ab760f6a1e" =
     "1b9ppgavqad78a2z1zxv7v4jasjz6zz0mxkr0zx0bbcd0i00jajf";
