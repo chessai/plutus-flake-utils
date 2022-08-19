@@ -63,7 +63,6 @@
         , plan-sha256 ? null
         , materialized ? null
         , checkMaterialization ? null
-        , caller ? "projectFor"
         , configureArgs ? [ ]
         , extraModules ? [ ]
         , extraShell ? { }
@@ -152,7 +151,6 @@
           inherit plan-sha256;
           inherit materialized;
           inherit checkMaterialization;
-          inherit caller;
           configureArgs = builtins.concatStringsSep " " configureArgs;
         };
     in
