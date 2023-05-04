@@ -141,9 +141,10 @@
             inherit withHoogle;
             inherit exactDeps;
 
-            nativeBuildInputs = [
+            buildInputs = [
               pkgs.cabal-install
               pkgs.ghcid
+              pkgs.xxd
             ];
           } // extraShell;
           inherit sha256map;
